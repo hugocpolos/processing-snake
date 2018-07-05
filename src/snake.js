@@ -11,7 +11,7 @@ class Snake{
 		this.direction = RIGHT;
 		this.speed = 1;
 		this.body = [];
-		this.canMove = true;
+		this.canMove = false;
 	}
 	display(){
 		fill(48,200,0);
